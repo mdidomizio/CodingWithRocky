@@ -15,9 +15,9 @@ fun plusMinus(arr: Array<Int>): Unit {
 
     val n = arr.size
 
-    val formattedPos = String.format("%.6f", sumPos.toDouble() / n.toDouble()).replace('.', ',')
-    val formattedNeg = String.format("%.6f", sumNeg.toDouble() / n.toDouble()).replace('.', ',')
-    val formattedZero = String.format("%.6f", sumZero.toDouble() / n.toDouble()).replace('.', ',')
+    val formattedPos = String.format("%.6f", sumPos.toDouble() / n.toDouble())
+    val formattedNeg = String.format("%.6f", sumNeg.toDouble() / n.toDouble())
+    val formattedZero = String.format("%.6f", sumZero.toDouble() / n.toDouble())
 
     println(formattedPos)
     println(formattedNeg)
